@@ -1,0 +1,228 @@
+{
+  "timestamp": "20260226_193440",
+  "params": {
+    "max_pe": 100,
+    "price_ratio": 2.0,
+    "growth_min": 30,
+    "growth_max": 100
+  },
+  "stats": {
+    "total_scanned": 12000,
+    "valid_data": 5516,
+    "tech_stocks": 465,
+    "after_preliminary": 463,
+    "final_selected": 43
+  },
+  "results": [
+    {
+      "symbol": "300628",
+      "name": "亿联网络",
+      "price": 37.6,
+      "pe": 18.74,
+      "week_52_low": 44.14,
+      "week_52_high": 29.42,
+      "pb": 5.49,
+      "avg_revenue_growth": 40.2,
+      "avg_profit_growth": 51.8,
+      "revenue_growth": [
+        39.556289585623,
+        50.232982047884,
+        30.811899321152
+      ],
+      "profit_growth": [
+        74.600955500503,
+        36.646893229685,
+        44.125244566722
+      ]
+    },
+    {
+      "symbol": "002140",
+      "name": "东华科技",
+      "price": 12.37,
+      "pe": 19.13,
+      "week_52_low": 13.42,
+      "week_52_high": 10.98,
+      "pb": 1.91,
+      "avg_revenue_growth": 46.6,
+      "avg_profit_growth": 43.7,
+      "revenue_growth": [
+        29.181802136813,
+        86.48070898696,
+        24.07028466597
+      ],
+      "profit_growth": [
+        34.267463796264,
+        69.893539181971,
+        26.928901610223
+      ]
+    },
+    {
+      "symbol": "002475",
+      "name": "立讯精密",
+      "price": 51.16,
+      "pe": 23.58,
+      "week_52_low": 56.74,
+      "week_52_high": 46.42,
+      "pb": 4.74,
+      "avg_revenue_growth": 83.0,
+      "avg_profit_growth": 60.2,
+      "revenue_growth": [
+        72.831087686712,
+        152.889111165076,
+        23.150780481486
+      ],
+      "profit_growth": [
+        56.201364217611,
+        122.128099874374,
+        2.298070119289
+      ]
+    },
+    {
+      "symbol": "688389",
+      "name": "普门科技",
+      "price": 14.06,
+      "pe": 24.0,
+      "week_52_low": 16.79,
+      "week_52_high": 11.19,
+      "pb": 2.87,
+      "avg_revenue_growth": 30.2,
+      "avg_profit_growth": 45.9,
+      "revenue_growth": [
+        28.943740886198,
+        31.037612479336,
+        30.675965954067
+      ],
+      "profit_growth": [
+        70.522753727414,
+        43.147006206264,
+        23.927431973288
+      ]
+    },
+    {
+      "symbol": "603236",
+      "name": "移远通信",
+      "price": 86.95,
+      "pe": 25.93,
+      "week_52_low": 93.4,
+      "week_52_high": 76.42,
+      "pb": 3.71,
+      "avg_revenue_growth": 52.9,
+      "avg_profit_growth": 63.8,
+      "revenue_growth": [
+        84.446914344793,
+        47.848786501209,
+        26.357178455609
+      ],
+      "profit_growth": [
+        89.433804545647,
+        27.712238272298,
+        74.216877497136
+      ]
+    },
+    {
+      "symbol": "300349",
+      "name": "金卡智能",
+      "price": 17.16,
+      "pe": 26.59,
+      "week_52_low": 20.74,
+      "week_52_high": 13.82,
+      "pb": 1.61,
+      "avg_revenue_growth": 48.9,
+      "avg_profit_growth": 55.5,
+      "revenue_growth": [
+        54.309597983921,
+        52.95365072595,
+        39.311076706227
+      ],
+      "profit_growth": [
+        76.226294273419,
+        45.611254419949,
+        44.597717019596
+      ]
+    },
+    {
+      "symbol": "002315",
+      "name": "焦点科技",
+      "price": 45.27,
+      "pe": 28.49,
+      "week_52_low": 49.56,
+      "week_52_high": 40.55,
+      "pb": 5.24,
+      "avg_revenue_growth": 40.3,
+      "avg_profit_growth": 32.3,
+      "revenue_growth": [
+        44.784839622,
+        48.124332163927,
+        28.008359502856
+      ],
+      "profit_growth": [
+        56.19178677505,
+        31.043595054103,
+        9.636014319391
+      ]
+    },
+    {
+      "symbol": "002273",
+      "name": "水晶光电",
+      "price": 27.53,
+      "pe": 33.24,
+      "week_52_low": 30.56,
+      "week_52_high": 25.0,
+      "pb": 3.99,
+      "avg_revenue_growth": 33.2,
+      "avg_profit_growth": 48.3,
+      "revenue_growth": [
+        9.44378068696,
+        88.18924750615,
+        1.836018442862
+      ],
+      "profit_growth": [
+        9.844136978547,
+        113.203105049535,
+        21.800563938141
+      ]
+    },
+    {
+      "symbol": "300303",
+      "name": "聚飞光电",
+      "price": 9.3,
+      "pe": 40.9,
+      "week_52_low": 9.3,
+      "week_52_high": 6.2,
+      "pb": 3.51,
+      "avg_revenue_growth": 42.1,
+      "avg_profit_growth": 31.3,
+      "revenue_growth": [
+        42.742681059198,
+        52.190299004611,
+        31.431968749116
+      ],
+      "profit_growth": [
+        14.149482205699,
+        43.057271895784,
+        36.637408748709
+      ]
+    },
+    {
+      "symbol": "688188",
+      "name": "柏楚电子",
+      "price": 153.5,
+      "pe": 41.76,
+      "week_52_low": 180.79,
+      "week_52_high": 120.53,
+      "pb": 7.61,
+      "avg_revenue_growth": 40.6,
+      "avg_profit_growth": 44.5,
+      "revenue_growth": [
+        16.582370567172,
+        51.787645701532,
+        53.333062612914
+      ],
+      "profit_growth": [
+        6.2430739321,
+        50.457464062515,
+        76.850443851538
+      ]
+    }
+  ]
+}
