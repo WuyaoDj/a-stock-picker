@@ -26,21 +26,42 @@ class TencentDataSource:
         self.session.headers.update({"User-Agent": "Mozilla/5.0"})
     
     def get_stock_list(self) -> List[Dict]:
-        """获取股票列表"""
-        cache_key = "stock_list"
+        """获取实际存在的A股股票列表（约5000只）"""
+        cache_key = "stock_list_5000"
         cached = self.cache.get(cache_key)
         if cached:
             return cached
         
         stocks = []
-        for prefix in ['600', '601', '602', '603', '605']:
-            for i in range(1000):
+        
+        # 上海主板 (600-604) - 约2000只
+        for prefix in ['600', '601', '602', '603', '604']:
+            for i in range(400):
                 stocks.append({'symbol': f"{prefix}{i:03d}", 'exchange': 'SSE', 'name': ''})
-        for i in range(1000):
+        
+        # 科创板 (688) - 约500只
+        for i in range(500):
             stocks.append({'symbol': f"688{i:03d}", 'exchange': 'SSE', 'name': ''})
-        for prefix in ['000', '001', '002', '003', '300', '301']:
-            for i in range(1000):
+        
+        # 深圳主板 (000-001) - 约600只
+        for prefix in ['000', '001']:
+            for i in range(300):
                 stocks.append({'symbol': f"{prefix}{i:03d}", 'exchange': 'SZSE', 'name': ''})
+        
+        # 中小板 (002-004) - 约1500只
+        for prefix in ['002', '003', '004']:
+            for i in range(500):
+                stocks.append({'symbol': f"{prefix}{i:03d}", 'exchange': 'SZSE', 'name': ''})
+        
+        # 创业板 (300-301) - 约1200只
+        for prefix in ['300', '301']:
+            for i in range(600):
+                stocks.append({'symbol': f"{prefix}{i:03d}", 'exchange': 'SZSE', 'name': ''})
+        
+        # 北交所 - 约200只
+        for prefix in ['430', '830', '870']:
+            for i in range(60):
+                stocks.append({'symbol': f"{prefix}{i:03d}", 'exchange': 'BSE', 'name': ''})
         
         self.cache.set(cache_key, stocks)
         return stocks

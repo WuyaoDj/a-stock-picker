@@ -144,6 +144,10 @@ class Screener:
                 self.stats,
                 params
             )
-            print(f"  报告已生成: {report_file}")
+            print(f"  文字报告: {report_file}")
+            
+            # 同时输出到控制台
+            with open(report_file, 'r', encoding='utf-8') as f:
+                print("\n" + f.read())
         
         return final_candidates[:10]
